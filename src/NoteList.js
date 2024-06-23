@@ -3,7 +3,7 @@ import Note from './Note';
 
 class NoteList extends Component {
   constructor(props) {
-    super(props);
+    super(props); 
     this.state = {
       notes: [],
       newNote: ''
